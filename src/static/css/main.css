@@ -1,0 +1,52 @@
+#login-form{
+    margin-top: 25px;
+}
+.page-form{
+    max-width: 480px;
+    margin-left: 5px;
+}
+#logout-form{
+  text-align: center;
+}
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+
+@media (max-width: 100px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
+}
+
+h1 {
+  letter-spacing: 12px;
+}
+
+h5 {
+  letter-spacing: 6px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+.col-md-4{
+  max-width: 40%;
+}
